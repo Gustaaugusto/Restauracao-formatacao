@@ -1,0 +1,5 @@
+PENSAMENTOS
+
+O objetivo dessa feature é bem simples... Será uma aba com uma grande caixa de texto para o usuário digitar pensamentos, sonhos, ideais... a "ideia" é enriquecer o contexto do Alfred para entender melhor como funciona o comportamento e a mente de cada usuário em específico.
+
+Dentro da caixa de texto, deixe escrito: "Descreva seu dia, fale de seus pensamentos, conte seu sonho ou apenas jogue papo fora."

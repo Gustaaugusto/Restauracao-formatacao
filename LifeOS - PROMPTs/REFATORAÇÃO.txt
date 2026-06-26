@@ -1,0 +1,205 @@
+REFATORAÇÃO
+
+Você irá atuar como arquiteto de software e engenheiro sênior responsável por reorganizar, padronizar e estabilizar um projeto já existente chamado LifeOS.
+
+IMPORTANTE:
+- NÃO quero que você recrie o projeto.
+- NÃO quero uma nova arquitetura teórica do zero.
+- NÃO quero overengineering.
+- Quero que você adapte, organize e normalize o que já existe.
+
+Contexto real do projeto:
+O LifeOS cresceu rapidamente através de desenvolvimento acelerado e vibe coding assistido por IA. O sistema já possui:
+- regras de negócio implementadas;
+- arquitetura modular parcial;
+- múltiplos ambientes (Dev, QA/Homologação e Produção);
+- funcionalidades em produção;
+- fluxo operacional já utilizado.
+
+Porém, ao longo do crescimento:
+- surgiram inconsistências arquiteturais;
+- partes do código ficaram acopladas;
+- padrões variaram entre módulos;
+- algumas convenções nunca foram formalizadas;
+- houve crescimento orgânico sem governança técnica suficiente;
+- ocorreram erros causados principalmente por ausência de processos claros.
+
+Seu papel é:
+ANALISAR o estado atual do projeto e AJUSTAR o que já existe para criar consistência, previsibilidade e sustentabilidade de longo prazo.
+
+Quero que você trabalhe com mentalidade de:
+- refatoração incremental;
+- estabilização arquitetural;
+- governança técnica;
+- padronização progressiva;
+- redução de caos operacional;
+- preservação máxima da estrutura funcional existente.
+
+Objetivos principais:
+1. Consolidar padrões arquiteturais.
+2. Formalizar convenções de desenvolvimento.
+3. Reduzir acoplamento.
+4. Melhorar separação de responsabilidades.
+5. Melhorar previsibilidade do código.
+6. Melhorar manutenção futura.
+7. Melhorar colaboração entre humanos e IA.
+8. Evitar regressões.
+9. Criar regras claras para evolução do sistema.
+10. Transformar o projeto em um ambiente sustentável para desenvolvimento contínuo assistido por IA.
+
+Quero que você adapte o projeto seguindo estes princípios:
+
+# 1. Arquitetura Modular
+
+Analise os módulos existentes e proponha:
+- limites claros entre domínios;
+- responsabilidades bem definidas;
+- redução de dependências cruzadas;
+- isolamento de contexto;
+- padronização estrutural entre módulos.
+
+Objetivo:
+Cada módulo deve ser compreensível, independente e previsível.
+
+# 2. Separação de Responsabilidades
+
+Padronize a separação entre:
+- controllers;
+- services;
+- repositories;
+- DTOs/schemas;
+- validações;
+- regras de negócio;
+- integrações externas;
+- eventos;
+- testes.
+
+Evite:
+- regras de negócio em controllers;
+- acesso direto a banco fora da camada apropriada;
+- lógica duplicada;
+- arquivos gigantes;
+- responsabilidades múltiplas na mesma classe ou função.
+
+# 3. Convenções de Código
+
+Defina padrões claros para:
+- nomenclatura;
+- estrutura de pastas;
+- composição de módulos;
+- organização de arquivos;
+- criação de endpoints;
+- tratamento de erros;
+- logs;
+- tipagem;
+- validação;
+- documentação interna;
+- commits;
+- pull requests.
+
+Essas convenções devem ser:
+- simples;
+- objetivas;
+- fáceis para IA seguir;
+- fáceis para humanos revisar.
+
+# 4. Desenvolvimento Assistido por IA
+
+Adapte o projeto para funcionar bem com IA.
+
+Crie diretrizes para:
+- evitar alterações destrutivas;
+- evitar refatorações globais desnecessárias;
+- limitar escopo das mudanças;
+- incentivar PRs pequenos;
+- manter consistência entre módulos;
+- impedir duplicação estrutural;
+- impedir que IA “invente” padrões novos sem autorização.
+
+A IA deve:
+- respeitar arquitetura existente;
+- seguir convenções;
+- alterar apenas contexto relevante;
+- preservar contratos;
+- preservar compatibilidade.
+
+# 5. Ambientes de Software
+
+Considere explicitamente:
+- Dev;
+- QA/Homologação;
+- Produção.
+
+Quero validação de:
+- separação de configurações;
+- isolamento de variáveis;
+- estratégias de deploy;
+- segurança entre ambientes;
+- gerenciamento de secrets;
+- observabilidade;
+- logs;
+- monitoramento;
+- pipelines;
+- validações pré-produção.
+
+Evite qualquer prática que permita:
+- vazamento de configuração;
+- uso indevido de dados reais;
+- deploy inseguro;
+- inconsistência entre ambientes.
+
+# 6. Governança Técnica
+
+Proponha:
+- regras mínimas obrigatórias;
+- critérios de revisão;
+- checklist de PR;
+- padrões de testes;
+- critérios de deploy;
+- critérios de refatoração;
+- políticas de estabilidade;
+- definição de dívida técnica aceitável.
+
+# 7. Estratégia de Refatoração
+
+NÃO quero big-bang refactor.
+
+Quero:
+- melhorias incrementais;
+- mudanças seguras;
+- adaptação gradual;
+- compatibilidade progressiva;
+- preservação operacional.
+
+Sempre priorize:
+1. estabilidade;
+2. previsibilidade;
+3. legibilidade;
+4. manutenção;
+5. escalabilidade;
+6. velocidade de desenvolvimento sustentável.
+
+# 8. Resultado Esperado
+
+Quero que você:
+- analise a estrutura atual;
+- identifique inconsistências;
+- proponha padronizações;
+- proponha convenções;
+- proponha reorganizações incrementais;
+- proponha melhorias arquiteturais pragmáticas;
+- proponha documentação estrutural;
+- proponha processos sustentáveis para desenvolvimento assistido por IA.
+
+IMPORTANTE:
+- Seja pragmático.
+- Preserve o que já funciona.
+- Evite purismo arquitetural.
+- Evite soluções excessivamente complexas.
+- Evite reinventar o projeto.
+- Priorize clareza operacional.
+- Priorize consistência.
+- Priorize sustentabilidade do código.
+
+O objetivo não é criar uma arquitetura perfeita.
+O objetivo é transformar o LifeOS em um sistema organizado, previsível, sustentável e compatível com desenvolvimento acelerado assistido por IA.

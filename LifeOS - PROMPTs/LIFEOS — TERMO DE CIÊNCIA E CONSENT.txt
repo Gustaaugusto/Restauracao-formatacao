@@ -1,0 +1,97 @@
+LIFEOS — TERMO DE CIÊNCIA E CONSENTIMENTO DE DADOS
+
+Na página de cadastro/login do LifeOS, implementar consentimento obrigatório dos Termos de Uso e Política de Dados.
+
+IMPORTANTE:
+Mesmo quando o login for realizado via Google OAuth (e futuras plataformas OAuth), o consentimento continua obrigatório.
+
+Implementar:
+
+1. Checkbox obrigatório:
+   ☐ Li e concordo com os Termos de Uso e Política de Dados do LifeOS
+
+2. Regras:
+
+* o usuário NÃO pode criar conta sem marcar o checkbox;
+* o botão de login/cadastro deve permanecer desabilitado até o aceite;
+* o estado deve funcionar tanto para login manual quanto OAuth;
+* persistir consentimento no backend.
+
+3. UX/UI:
+
+* “Termos de Uso” e “Política de Dados” devem ser clicáveis;
+* abrir modal premium dark mode;
+* glassmorphism leve;
+* scroll elegante;
+* responsivo;
+* animações suaves.
+
+4. Modal:
+   Ao clicar em “Termos de Uso”, abrir modal contendo integralmente o termo abaixo:
+   "LIFEOS — TERMO DE CIÊNCIA E CONSENTIMENTO DE DADOS"
+
+Última atualização: Maio de 2026
+
+Ao utilizar o LifeOS, o usuário declara estar ciente de que a plataforma funciona como um sistema operacional pessoal inteligente, com recursos de organização, contexto comportamental, memória contextual, automação e assistência por inteligência artificial.
+
+Para oferecer uma experiência personalizada e contextualizada, o LifeOS poderá armazenar, processar e interpretar informações inseridas voluntariamente pelo usuário, incluindo, mas não se limitando a:
+
+* tarefas e produtividade;
+* hábitos e rotinas;
+* dados financeiros;
+* metas pessoais;
+* calendário e eventos;
+* pensamentos e anotações;
+* emoções e registros emocionais;
+* contexto de relacionamento;
+* preferências de uso;
+* interações com o Alfred-IA.
+
+O usuário reconhece que determinados dados podem ser classificados como sensíveis nos termos da legislação aplicável, incluindo a Lei Geral de Proteção de Dados (LGPD).
+
+O LifeOS compromete-se a:
+
+* utilizar os dados exclusivamente para fins de funcionamento da plataforma;
+* não comercializar informações pessoais;
+* não compartilhar dados sem consentimento explícito;
+* adotar medidas razoáveis de segurança, autenticação e proteção;
+* permitir futura revogação de consentimentos e exclusão de dados.
+
+O usuário compreende que:
+
+* o Alfred-IA poderá utilizar contexto histórico para personalização da experiência;
+* determinadas sugestões, análises ou interpretações geradas pela IA possuem caráter assistivo e não substituem aconselhamento profissional, médico, jurídico ou financeiro;
+* a precisão de análises financeiras depende de informações inseridas pelo usuário e de dados externos de mercado.
+
+Ao prosseguir com a utilização do LifeOS, o usuário declara:
+
+* estar ciente da coleta e processamento contextual das informações fornecidas;
+* consentir com o armazenamento seguro desses dados;
+* compreender os riscos inerentes ao uso de plataformas digitais conectadas à internet;
+* aceitar os presentes termos de uso e consentimento.
+
+O LifeOS foi concebido com a filosofia de atuar como um assistente pessoal elegante, contextual e privado — respeitando a autonomia, privacidade e individualidade de cada usuário.
+
+
+5. Backend:
+   Adicionar no model User:
+
+* terms_accepted: boolean
+* terms_accepted_at: datetime
+
+Garantir:
+
+* validação server-side;
+* impedir bypass pelo frontend;
+* compatibilidade com Google OAuth.
+
+6. Objetivo:
+   A experiência deve transmitir:
+
+* transparência;
+* sofisticação;
+* privacidade;
+* confiança;
+* consciência sobre dados sensíveis.
+
+A tela deve parecer premium e alinhada à filosofia elegante do LifeOS.

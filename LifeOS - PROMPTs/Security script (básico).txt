@@ -1,0 +1,11 @@
+Security script (básico)
+
+1. Configuração de Variáveis de Ambiente
+Proibição de Prefixos Públicos: É terminantemente proibido o uso de chaves com o prefixo ⁠NEXT_PUBLIC_⁠ para dados sensíveis. Essas variáveis são injetadas no bundle do cliente e ficam expostas no código-fonte.
+Gestão de Segredos (⁠.env⁠): Arquivos ⁠.env⁠ contendo credenciais ou chaves de API nunca devem ser versionados no repositório.
+Fluxo de Configuração: A gestão de variáveis deve passar obrigatoriamente pelo ⁠gitnode⁠ (ou nossa plataforma de gerenciamento de segredos) antes da execução de qualquer comando de deploy ou build.
+2. Gestão de Autenticação e Armazenamento
+Armazenamento de Tokens: Não utilize ⁠localStorage⁠ para persistir tokens de autenticação (JWT). O ⁠localStorage⁠ é suscetível a ataques de XSS (Cross-Site Scripting).
+Segurança no Ciclo de Vida da Sessão: Tokens sensíveis devem ser mantidos em memória ou em ⁠sessionStorage⁠ (quando estritamente necessário), garantindo que os dados sejam descartados automaticamente assim que a aba ou o navegador for fechado.
+3. Transporte e Comunicação
+Protocolo de Segurança: Todo "cockpit" ou módulo de administração que trafegue tokens de autenticação deve operar exclusivamente via protocolo HTTPS. O tráfego de credenciais em HTTP puro está proibido por violar as políticas de segurança da rede.

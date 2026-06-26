@@ -1,0 +1,278 @@
+EXPERIÊNCIAS USUÁRIOS (PLANOS)
+
+Implementar sistema de planos e controle de acesso do LifeOS baseado na filosofia do projeto.
+
+OBJETIVO:
+Separar a experiência do usuário entre:
+
+* Plebeu (Free)
+* Olympian (Premium)
+
+A arquitetura deve ser escalável para futuros planos como:
+
+* Semi-Deus
+* Admin
+* Internal/Test
+
+==================================================
+FILOSOFIA DOS PLANOS
+====================
+
+PLEBEU (FREE):
+Objetivo:
+Permitir que o usuário experimente o ecossistema do LifeOS sem acesso profundo ao contexto humano completo.
+
+Acesso permitido:
+
+* Dashboard
+* Tasks
+* Habits
+* Categories
+* Calendar (limitado)
+* Analytics básicos
+* Alfred-IA limitado à produtividade
+
+Restrições:
+Sem acesso às áreas:
+
+* Finanças
+* Relacionamento
+* Pulse (emoções/contexto humano)
+* Pensamentos
+* Open Finance
+* Memória contextual avançada
+* Insights emocionais
+* IA contextual profunda
+
+==================================================
+
+OLYMPIAN (PREMIUM):
+Objetivo:
+Experiência completa do LifeOS.
+
+Acesso liberado:
+
+* Finanças
+* Open Finance
+* Pulse
+* Relacionamento
+* Pensamentos
+* Emoções
+* Insights contextuais
+* Alfred contextual
+* Analytics avançados
+* Memória persistente
+* Correlação emocional/contextual
+
+==================================================
+BACKEND
+=======
+
+Adicionar no model User:
+
+plan_type:
+
+* plebeu
+* olympian
+
+default:
+plebeu
+
+Também preparar estrutura para:
+
+* semi_deus
+* admin
+
+==================================================
+AUTHORIZATION SYSTEM
+====================
+
+Criar sistema centralizado de autorização.
+
+Sugestão:
+app/core/permissions.py
+
+Funções:
+
+* has_feature_access()
+* has_plan_access()
+* require_plan()
+
+==================================================
+FEATURE FLAGS
+=============
+
+Criar mapa centralizado:
+
+Exemplo:
+
+FEATURE_ACCESS = {
+"finance": ["olympian"],
+"relationship": ["olympian"],
+"pulse": ["olympian"],
+"thoughts": ["olympian"],
+"open_finance": ["olympian"],
+}
+
+==================================================
+FRONTEND
+========
+
+Implementar:
+
+* route guards;
+* feature guards;
+* hidden states;
+* locked states;
+* premium overlays.
+
+==================================================
+UX PREMIUM LOCK
+===============
+
+IMPORTANTE:
+As áreas premium NÃO devem parecer “bloqueadas brutalmente”.
+
+Objetivo:
+Despertar curiosidade e desejo.
+
+Quando usuário free acessar:
+
+* Finanças
+* Pulse
+* Relacionamento
+* Pensamentos
+
+Exibir modal premium elegante com:
+
+* background cinematográfico;
+* glassmorphism;
+* blur sofisticado;
+* imagens estilo Focus Collection;
+* estética mitológica elegante.
+
+==================================================
+COPY DO MODAL
+=============
+
+Texto exemplo:
+
+“Você ainda não alcançou o nível Olympian.
+
+Algumas áreas do LifeOS exigem uma conexão mais profunda com contexto, memória e inteligência contextual.
+
+Talvez, em breve, você esteja pronto para ir além.”
+
+Botão:
+“Conhecer Olympian”
+
+==================================================
+IMPORTANTE
+==========
+
+As abas premium devem:
+
+* continuar visíveis;
+* despertar curiosidade;
+* transmitir valor;
+* parecer aspiracionais.
+
+NÃO:
+
+* esconder completamente;
+* parecer sistema pay-to-win;
+* parecer agressivo.
+
+==================================================
+ALFRED-IA
+=========
+
+PLEBEU:
+
+* Alfred limitado à produtividade;
+* sem memória emocional;
+* sem contexto profundo;
+* sem autonomia.
+
+OLYMPIAN:
+
+* memória contextual;
+* insights emocionais;
+* entendimento comportamental;
+* integração financeira;
+* relacionamento;
+* Pulse;
+* contexto longitudinal.
+
+==================================================
+ARQUITETURA FUTURA
+==================
+
+Preparar estrutura para:
+
+* assinatura Stripe
+* billing
+* feature flags dinâmicas
+* trials
+* upgrades
+* downgrade
+* uso por permissões
+* múltiplos níveis de IA
+
+==================================================
+DELEGAÇÃO DOS AGENTES
+=====================
+
+ORCHESTRATOR:
+
+* coordenar implementação completa;
+* validar arquitetura;
+* garantir consistência entre frontend/backend/security.
+
+BACKEND-DEV:
+
+* models;
+* permissions;
+* middleware;
+* authorization;
+* feature access;
+* plan validation.
+
+FRONTEND-DEV:
+
+* route guards;
+* locked states;
+* premium modal;
+* UX premium;
+* overlays;
+* feature gating visual.
+
+TESTER:
+
+* validar bypass;
+* validar permissões;
+* validar UX;
+* validar estados edge-case.
+
+SECURITY:
+
+* impedir bypass via API;
+* validar permissões server-side;
+* revisar middleware;
+* revisar JWT + plan access.
+
+==================================================
+OBJETIVO FINAL
+==============
+
+O sistema deve transmitir:
+
+* exclusividade;
+* elegância;
+* profundidade;
+* sofisticação;
+* evolução pessoal.
+
+O usuário deve sentir que:
+quanto mais contexto compartilha com o LifeOS,
+mais inteligente e poderoso o Alfred se torna.

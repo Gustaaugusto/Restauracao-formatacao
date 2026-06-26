@@ -1,0 +1,122 @@
+ALFRED-IA — TERMO DE USO, CIÊNCIA E CONSENTIMENTO CONTEXTUAL
+
+Última atualização: Maio de 2026
+
+O Alfred-IA é um sistema de inteligência artificial contextual desenvolvido para atuar como assistente pessoal dentro do ecossistema LifeOS.
+
+Diferentemente de assistentes convencionais, o Alfred foi concebido para operar com memória contextual, interpretação comportamental, organização pessoal e suporte assistivo baseado nas informações fornecidas pelo usuário ao longo do uso da plataforma.
+
+Ao ativar ou utilizar o Alfred-IA, o usuário declara estar ciente de que determinadas funcionalidades dependem da coleta, interpretação e processamento contínuo de informações pessoais e contextuais.
+
+1. FUNCIONALIDADES DO ALFRED-IA
+
+O Alfred poderá:
+
+* analisar hábitos, rotinas e padrões de comportamento;
+* interpretar contexto histórico do usuário;
+* gerar sugestões personalizadas;
+* auxiliar na organização pessoal e financeira;
+* interpretar tarefas, emoções, pensamentos e anotações;
+* sugerir ações, decisões ou melhorias comportamentais;
+* operar com memória contextual persistente;
+* realizar automações autorizadas pelo usuário;
+* futuramente operar com recursos parcialmente autônomos e proativos.
+
+2. USO DE DADOS CONTEXTUAIS E SENSÍVEIS
+
+Mediante consentimento explícito do usuário, o Alfred poderá acessar e utilizar dados inseridos voluntariamente em módulos como:
+
+* finanças;
+* produtividade;
+* hábitos;
+* calendário;
+* pensamentos;
+* emoções;
+* relacionamentos;
+* metas pessoais;
+* registros contextuais.
+
+O usuário compreende que alguns desses dados podem ser classificados como dados sensíveis nos termos da legislação aplicável, incluindo a LGPD.
+
+Essas informações poderão ser utilizadas exclusivamente para:
+
+* personalização da experiência;
+* contextualização das respostas;
+* geração de análises;
+* automações;
+* funcionamento do sistema de memória contextual do Alfred.
+
+3. COMPORTAMENTO CONTEXTUAL E POSSÍVEL INVASIVIDADE
+
+O Alfred foi projetado para atuar de forma altamente contextual e proativa.
+
+Por esse motivo, determinadas funcionalidades poderão ser percebidas como:
+
+* intensamente personalizadas;
+* comportamentalmente profundas;
+* emocionalmente contextuais;
+* ou potencialmente invasivas.
+
+Exemplos incluem:
+
+* lembrar padrões recorrentes;
+* sugerir mudanças de comportamento;
+* relacionar emoções com hábitos;
+* correlacionar decisões financeiras;
+* identificar tendências emocionais ou comportamentais.
+
+O usuário reconhece e aceita que:
+
+* a experiência do Alfred depende diretamente do volume de contexto compartilhado;
+* quanto maior o nível de acesso concedido, maior será a capacidade contextual da IA;
+* funcionalidades futuras poderão ampliar significativamente o nível de interpretação contextual do sistema.
+
+4. INSTABILIDADE E FUNCIONALIDADES EXPERIMENTAIS
+
+O Alfred-IA encontra-se em desenvolvimento contínuo.
+
+Determinadas funcionalidades:
+
+* podem apresentar instabilidade;
+* podem mudar sem aviso prévio;
+* podem ser removidas, limitadas ou reformuladas;
+* podem gerar respostas incorretas, imprecisas ou inesperadas.
+
+Recursos disponíveis em planos como:
+
+* Olympian;
+* Semi-Deus;
+  podem incluir funcionalidades experimentais, beta ou parcialmente autônomas.
+
+O usuário compreende que:
+
+* sistemas de IA não são infalíveis;
+* respostas não substituem aconselhamento médico, psicológico, jurídico ou financeiro profissional;
+* automações futuras poderão exigir supervisão humana.
+
+5. PRIVACIDADE E SEGURANÇA
+
+O LifeOS compromete-se a:
+
+* não comercializar dados pessoais;
+* não compartilhar informações sem consentimento;
+* adotar medidas razoáveis de segurança;
+* permitir futura revogação de consentimentos e exclusão de dados.
+
+Ainda assim, o usuário reconhece que:
+
+* nenhum sistema conectado à internet é absolutamente invulnerável;
+* funcionalidades avançadas de IA exigem processamento contextual contínuo;
+* o uso do Alfred implica aceitação consciente desses riscos tecnológicos.
+
+6. CONSENTIMENTO
+
+Ao ativar o Alfred-IA, o usuário declara:
+
+* compreender a natureza contextual e comportamental do sistema;
+* consentir com o processamento das informações fornecidas;
+* reconhecer os riscos inerentes ao uso de inteligência artificial avançada;
+* aceitar possíveis limitações, instabilidades e mudanças futuras da plataforma.
+
+O Alfred foi concebido para ser mais do que uma ferramenta:
+um assistente pessoal contextual, elegante e profundamente integrado à experiência humana do usuário.

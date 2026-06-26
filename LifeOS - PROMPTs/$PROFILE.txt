@@ -1,0 +1,11 @@
+function codex1 {
+    $env:CODEX_HOME="C:\codex-profile-1"
+    $env:OPENAI_API_KEY="sk-conta-1"
+    codex
+}
+
+function codex2 {
+    $env:CODEX_HOME="C:\codex-profile-2"
+    $env:OPENAI_API_KEY="sk-conta-2"
+    codex
+}

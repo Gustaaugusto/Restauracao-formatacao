@@ -1,0 +1,25 @@
+FIXES:
+- Emoções - Tela após questionário: O direcionamento após a resposta diária do questionário de emoções leva até uma página com erro e não direciona até o Dashboard emocional;
+
+ALFRED:
+- Finanças - Resumo financeiro: Como não utilizaremos tão cedo Open Finance, o Alfred em determinado horário deve lembrar o usuário de atualizar suas finanças no dia para que ele gere um relatório e atualize o perfil financeiro do usuário;
+- Fonância - O Alfred fala os números, número por número: Exemplo: R$ 2.609,24 (ele fala 2.6.0.9,2.4) ele não fala: dois mil, seissentos e nove reais e vinte e quatro centavos);
+- Fonância - Email: Com os testes que fiz ao solicitar o envio de um e-mail para o Alfred, ele soletra o e-mail do destinatário, não lê normalmente;
+- Fonância - SQL: Ao solicitar uma informação do banco de dados o alfred retorna mensagens do tipo: "Patroa Gustavo, para saber o aniversário da sua companheira, preciso consultar os registros do LifeOS. Vou verificar... <function=LifeOS_DB_Tool>{"sql":"SELECT birthdate FROM users WHERE user_id = 1 AND relationship = 'companheira'"}</function>";
+- Pefil - Gênero: O Alfred deve chamar de "Patrão" e "Senhor" os usuários que forem do gênero Masculino. O Alfred deve chamar de "Patroa" ou "Senhora" usuários que forem do gênero Feminino. Para isso, ele deverá consultar a informação no banco de dados para saber a qual gênero o usuário pertence;
+- Sub-agente - Email: Fiz solicitações para o Alfred listar meus e-mails e enviar e-mail e ele não consegue por algum motivo acessar ou enviar a requisição para o emailAgent;
+- Sub-agente - Contatos: Fiz solicitações para o Alfred listar 5 contatos e ele por algum motivo não consegue acessar ou enviar a requisição para o contactAgent;
+- Interface - Alfred Chat: Incluir o microfone no chat com o Alfred para mensagens gravadas por voz e bate-papo via HTTP;
+- Linguagem - Alfred: As vezes a mensagem por voz do Alfred é falada em Português de Portugal e as vezes em Português do Brasil. Quero que seja exclusivamente Português do Brasil;
+- Reconhecimento por chamada - Ao falar "Alfred" quero que ele reaja, que funcione como um gatilho igual: "E aí Siri", "Ok google" e "Alexa...";
+- ícone Universal - É um círculo de chamada direta do Alfred que ficará em todas as páginas e ao clicar você abre um mini-chat com ele ou ativa a mensagem por voz;
+- Data, hora e dia - Alfred não responde a data, hora e dia;
+- Alfred - Limite de fala: Retire o limite de palavras ou letras que o Alfred pode dizer (por voz);
+- Acesso a dados: Quando pergunto a que tipo de dados o Alfred tem acesso ele só responde dados financeiros e suas categorias;
+- Interface - Alfred Chat: Quando a conversa no chat do Alfred começa a aumentar, a caixa de envio de mensagem para o Alfred começa a descer junto ao scrolar a tela. A caixa de mensagem deve se manter fixa na tela.
+
+FEATURES:
+- Pensamentos - Enriquecimento de informações: Se comportará como um bloco de notas onde o usuário poderá criar pastas de anotações e páginas dentro das pastas (parecido com o One Note);
+- Tarefas - Filtros: Incluir um filtro de ordenar tarefas por nível de prioridade, data de inclusão e conclusão da tarefa;
+- Hábitos - Barra de progressão: Implementar uma barra de progressão nos hábitos (exemplo hábito por dia útil: se concluir os 5 dias da semana fica em 100%, se fizer só 4 dias = 80%);
+- Hábitos - Novas Frequências: Além de hábitos: semanais e diários, quero hábitos por dia útil (de segunda a sexta), hábitos por fim de semana e hábitos por mês.

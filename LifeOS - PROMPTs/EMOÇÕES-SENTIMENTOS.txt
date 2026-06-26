@@ -1,0 +1,219 @@
+EMOÇÕES-SENTIMENTOS
+
+FEATURE: Implementar nova aba do LifeOS focada em inteligência emocional contextual e registro comportamental humano.
+
+IMPORTANTE:
+Essa aba será o “coração” do LifeOS.
+A proposta NÃO é criar um app terapêutico ou clínico, mas sim um sistema elegante de entendimento contextual da vida do usuário.
+
+Nome temporário da feature:
+
+* Pulse
+  (pode permanecer modular para futuras alterações)
+
+OBJETIVO:
+Criar um sistema de registro emocional diário capaz de correlacionar:
+
+* emoções;
+* humor;
+* hábitos;
+* tarefas;
+* sono;
+* trabalho;
+* relacionamentos;
+* saúde;
+* finanças;
+* lazer;
+* contexto humano geral.
+
+A feature deve transmitir:
+
+* sofisticação;
+* minimalismo;
+* privacidade;
+* profundidade emocional;
+* UX premium.
+
+==================================================
+ETAPA 1 — HUMOR DIÁRIO
+======================
+
+Ao entrar na aba, o usuário deverá registrar como está se sentindo naquele dia.
+
+Opções:
+
+* 😄 Muito bem
+* 🙂 Bem
+* 😐 Mais ou menos
+* 😞 Mal
+* 😭 Muito mal
+
+Requisitos:
+
+* seleção simples e rápida;
+* visual premium;
+* animações suaves;
+* feedback visual elegante;
+* responsivo;
+* dark mode.
+
+==================================================
+ETAPA 2 — EMOÇÕES ASSOCIADAS
+============================
+
+Após selecionar o humor principal, exibir emoções associadas.
+
+O usuário poderá selecionar até 3 emoções.
+
+Lista inicial:
+
+* Alegria
+* Amor
+* Ansiedade
+* Cansaço
+* Confiança
+* Culpa
+* Desânimo
+* Frustração
+* Gratidão
+* Indiferença
+* Insegurança
+* Medo
+* Orgulho
+* Raiva
+* Satisfação
+* Tranquilidade
+* Tristeza
+
+UX:
+
+* chips/tags selecionáveis;
+* animações suaves;
+* limite visual de seleção;
+* experiência fluida.
+
+==================================================
+ETAPA 3 — CONTEXTO / CAUSA
+==========================
+
+Após emoções, exibir:
+“O que mais influenciou isso hoje?”
+
+O usuário poderá selecionar múltiplos contextos:
+
+* Hábitos
+* Categorias
+* Amizades
+* Relacionamento
+* Família
+* Trabalho
+* Finanças
+* Saúde
+* Sono
+* Lazer
+
+IMPORTANTE:
+
+* integrar com dados reais do sistema;
+* permitir correlacionar tasks/habits/categories existentes;
+* arquitetura preparada para análise contextual futura pelo Alfred-IA.
+
+Objetivo:
+Construir correlação emocional-contextual longitudinal.
+
+==================================================
+ETAPA 4 — REGISTRO TEXTUAL
+==========================
+
+Campo opcional:
+“Quer escrever algo sobre isso?”
+
+Objetivo:
+Permitir reflexão livre do usuário.
+
+Requisitos:
+
+* textarea elegante;
+* minimalista;
+* sem aparência clínica;
+* foco em journaling leve;
+* placeholder humanizado.
+
+Exemplo:
+“Hoje me senti mais cansado por causa do trabalho e dormi pouco.”
+
+==================================================
+ARQUITETURA
+===========
+
+Criar estrutura escalável para futura integração com Alfred-IA.
+
+Sugestão inicial:
+
+EmotionEntry
+
+* id
+* user_id
+* mood_level
+* emotions[]
+* related_contexts[]
+* related_tasks[]
+* related_habits[]
+* notes
+* created_at
+
+==================================================
+DIRETRIZES IMPORTANTES
+======================
+
+NÃO:
+
+* parecer terapia;
+* parecer sistema médico;
+* parecer diagnóstico psicológico;
+* gerar aconselhamento clínico.
+
+SIM:
+
+* contexto humano;
+* autoconsciência;
+* reflexão;
+* inteligência contextual;
+* experiência premium.
+
+==================================================
+FUTURO (PREPARAR ARQUITETURA)
+=============================
+
+Preparar estrutura para:
+
+* timeline emocional;
+* correlação com produtividade;
+* correlação com sono;
+* análise contextual pelo Alfred;
+* insights comportamentais;
+* gráficos emocionais;
+* padrões recorrentes;
+* memória contextual futura.
+
+==================================================
+UI/UX
+=====
+
+Referência:
+
+* Wellz
+* Apple Health
+* Notion premium
+* minimalismo elegante
+
+Visual:
+
+* glassmorphism leve;
+* gradients suaves;
+* animações discretas;
+* experiência acolhedora;
+* dark mode premium.
+
+Essa feature deve representar:
+“O LifeOS entendendo o ser humano por trás da produtividade.”
